@@ -17,7 +17,7 @@ You can copy the files directly to a project based on each configuration's own r
 
 The BETTER way to do this is to use **git submodules**. This will allow you to keep configurations up-to-date as they change in this repository.
 
-### git submodule
+## git submodule
 
 initialize by going into your project and running
 ```bash
@@ -40,6 +40,13 @@ to clone a project including all the submodules, run this command
 ```bash
 git clone <your_repo> --recursive
 ```
+
+## npm dependency
+run `npm install --save-dev @kibibit/configurations` to install this as an npm dependency
+
+point all your tools to `<relative_root_folder>/node_modules/@kibibit/configurations/<config_filename>` to use these configurations.
+
+in order to update the configurations to the latest version, just update the dependency's version.
 
 ## Dependencies:
 
