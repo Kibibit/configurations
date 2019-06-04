@@ -1,6 +1,6 @@
 {
   "name": "@kibibit/configurations",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kibibit/configurations.git"
+    "url": "https://github.com/Kibibit/configurations.git"
   },
   "author": "neilkalman@gmail.com",
   "license": "MIT",
