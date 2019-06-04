@@ -44,4 +44,4 @@ git clone <your_repo> --recursive
 ## Dependencies:
 
 - `.eslintrc`: [`eslint`](https://www.npmjs.com/package/eslint), [`ESLint-Plugin-Lodash`](https://www.npmjs.com/package/eslint-plugin-lodash)
-- `.tslint`: TBD
+- `.tslint`: [`tslint`](https://www.npmjs.com/package/tslint)
