@@ -31,7 +31,14 @@ to update to the latest files, run this:
 ```bash
 # update your submodule --remote fetches new commits in the submodules
 # and updates the working tree to the commit described by the branch
-git submodule update --remote
+git submodule update --remote --init
+```
+
+### Initial cloning
+to clone a project including all the submodules, run this command
+
+```bash
+git clone <your_repo> --recursive
 ```
 
 ## Dependencies:
